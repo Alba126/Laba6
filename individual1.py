@@ -9,7 +9,7 @@ if __name__ == '__main__':
     a = list(map(int, input("Введите список: ").split()))
     m = int(input("Введите элемент: "))
     z = []
-    for item in range(len(a)):
+    for item in enumerate(a):
         if a[item] == m:
             z.append(item)
 
